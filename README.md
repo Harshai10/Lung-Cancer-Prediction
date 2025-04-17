@@ -46,12 +46,10 @@ The output images generated from the notebook will be included here.
 ###Feature Correlation Heatmap
 ![Feature Correlation Heatmap](https://github.com/user-attachments/assets/f6969210-23af-43ac-870b-8c12e2ff5dad)
 
-
-'''
-
-Random forest Classifier
-Accuracy: 0.7796179775280899
-Classification Report:
+### Random Forest Classifier
+- **Accuracy**: 0.7796
+- **Classification Report**:
+```
               precision    recall  f1-score   support
 
          0.0       0.78      1.00      0.88    104100
@@ -60,11 +58,33 @@ Classification Report:
     accuracy                           0.78    133500
    macro avg       0.46      0.50      0.44    133500
 weighted avg       0.64      0.78      0.68    133500
-
-Confusion Matrix:
+```
+- **Confusion Matrix**:
+```
 [[104075     25]
  [ 29396      4]]
-'''
+```
+
+###XGBoost Classifier
+- **Accuracy**: 0.7797003745318352
+- **Classification Report**:
+```
+              precision    recall  f1-score   support
+
+         0.0       0.78      1.00      0.88    104100
+         1.0       0.25      0.00      0.00     29400
+
+    accuracy                           0.78    133500
+   macro avg       0.51      0.50      0.44    133500
+weighted avg       0.66      0.78      0.68    133500
+```
+-**Confusion Matrix**:
+```
+[[104085     15]
+ [ 29395      5]]
+```
+
+
 ## License
 
 This project is licensed under the MIT License.
