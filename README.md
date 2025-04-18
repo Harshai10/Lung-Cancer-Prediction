@@ -43,7 +43,7 @@ The following machine learning models are implemented in this project:
 
 The output images generated from the notebook will be included here.
 
-###Feature Correlation Heatmap
+### Feature Correlation Heatmap
 ![Feature Correlation Heatmap](https://github.com/user-attachments/assets/f6969210-23af-43ac-870b-8c12e2ff5dad)
 
 ### Random Forest Classifier
